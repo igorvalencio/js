@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        body{
+
+            font: 500;
+        }
+    </style>
+</head>
+<body>
+    <script>
+        var nome = prompt('qual seu nome? ')
+    document.writeln(`seu nome tem ${nome.length} letras <br/>`)
+    document.write(`seu nome em minuscula é ${nome.toLocaleLowerCase()}<br>`)
+    document.write(`seu nome em maiúscula é ${nome.toLocaleUpperCase()}`)
+
+    /*
+    para colocar o numero com duas casas decimais, abrir a tag (ToFixed(2))
+
+    quando precisar colocar os números em formatação de dinheiro, seja a moeda que for, colocar esse comando abaixo
+    
+    n1.ToLocaleString('pt-br', {style: 'currency', currency:'BRL' })
+ 
+    Se for pra outro pais, colocar a moeda que necessário.. ex:USD, EUR 
+
+    */
+
+    </script>
+    
+</body>
+</html>
